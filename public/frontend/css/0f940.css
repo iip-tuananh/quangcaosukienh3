@@ -15722,7 +15722,7 @@ html:not(.touchevents) .dt-mobile-header::-webkit-scrollbar-track {
 
 .dt-mobile-menu-icon:not(.floating-btn) .menu-line:before {
     background-color: #12b24c;
-    background: #12b24c !important
+    background: #b67848 !important;
 }
 
 .accent-gradient .dt-mobile-menu-icon:not(.floating-btn) .menu-line:before {
@@ -15733,7 +15733,7 @@ html:not(.touchevents) .dt-mobile-header::-webkit-scrollbar-track {
 
 .dt-mobile-menu-icon:not(.floating-btn) .menu-line:after {
     background-color: #12b24c;
-    background: #12b24c !important
+    background: #b67848 !important;
 }
 
 .accent-gradient .dt-mobile-menu-icon:not(.floating-btn) .menu-line:after {
