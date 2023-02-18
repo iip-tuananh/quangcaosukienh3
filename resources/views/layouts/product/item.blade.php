@@ -14,7 +14,7 @@ $img=json_decode($pro['images']);
             <a href="{{route('detailProduct',['slug'=>$pro['slug']])}}" title="{{languageName($pro['name'])}}" rel="bookmark">{{languageName($pro['name'])}}</a>
         </h3>
         <div class="entry-excerpt limit-text-3">
-           {{languageName($pro['description'])}}
+           {!!languageName($pro['description'])!!}
         </div>
         <a href="{{route('detailProduct',['slug'=>$pro['slug']])}}" class="post-details details-type-link" aria-label="Read more about {{languageName($pro['name'])}}" rel="nofollow">Xem thêm...<i class="dt-icon-the7-arrow-03" aria-hidden="true"></i></a>
     </div>
