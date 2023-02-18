@@ -1,10 +1,82 @@
+
 <footer id="footer" class="footer solid-bg footer-outline-decoration">
    <div class="wf-wrap">
    <div class="wf-container-footer">
       <div class="wf-container">
+         
          <section id="text-2" class="widget widget_text wf-cell wf-1-4">
-               <div class="textwidget">
-               <p><a href="{{route('home')}}"><img loading="lazy" class="alignnone wp-image-1651" src="{{$setting->logo}}" alt="" width="173" height="46" /></a></p>
+            
+               <div class="">
+                  <div class="box-cus">
+                     <div class="inner-cus">
+                       <span><img src ="{{$setting->logo}}"></span>
+                     </div>
+                     <div class="inner-cus">
+                       <span><img src ="{{$setting->logo}}"></span>
+                     </div>
+                   </div>
+               
+               
+               
+             <style>
+               .box-cus {
+	display: flex;
+   transform: translateX(-70px);
+}
+@media only screen and (max-width:768px){
+   .box-cus {
+	display: flex;
+   transform: translateX(0px) !important;
+}
+}
+
+.box-cus .inner-cus {
+	width: 400px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box-cus .inner-cus:first-child {
+	background-color: indianred;
+	color: darkred;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box-cus .inner-cus:last-child {
+	background-color: lightcoral;
+	color: antiquewhite;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box-cus .inner-cus span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box-cus .inner-cus:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+             </style>
+             <br>
+             <br>
                <p style="color: #d1d3d4; padding-bottom: 10px; align: justify;">{{$setting->webname}}</p>
                <style type="text/css" data-type="the7_shortcodes-inline-css">#orphaned-shortcode-3c5facf098baaba3f4a72b0826cb35f8.ico-right-side > i {
                   margin-right: 0px;
