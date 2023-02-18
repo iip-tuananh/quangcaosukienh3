@@ -202,7 +202,7 @@
         <div class="load-wrap"></div>
     </div>
     <div id="page" >
-        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+ 
         @include('layouts.header.index')
         <style id="the7-page-content-style">
             #main {
@@ -229,14 +229,14 @@
             <div class="hotline-phone-ring-circle"></div>
             <div class="hotline-phone-ring-circle-fill"></div>
             <div class="hotline-phone-ring-img-circle">
-            <a href="tel:0946095000" class="pps-btn-img">
-            <img src="https://duckienad.com/wp-content/plugins/hotline-phone-ring/assets/images/icon-2.png" alt="Số điện thoại" width="50" />
+            <a href="tel:{{$setting->phone1}}" class="pps-btn-img">
+            <img src="{{asset('frontend/images/icon-2.png')}}" alt="Số điện thoại" width="50" />
             </a>
             </div>
         </div>
         <div class="hotline-bar">
-            <a href="tel:0946095000">
-            <span class="text-hotline">0946.095.000</span>
+            <a href="tel:{{$setting->phone1}}">
+            <span class="text-hotline">&nbsp;&nbsp;&nbsp;{{$setting->phone1}}</span>
             </a>
         </div>
     </div>

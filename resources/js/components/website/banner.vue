@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-md-9">
                   <div class="form-group">
-                    <label>Tiêu đề (Bỏ trống nếu là banner nhỏ)</label>
+                    <label>Tiêu đề </label>
                     <label style="float: right;cursor: pointer" title="Xóa banner" v-if="key != 0" @click="removeObjBanner(key)">
                       <vs-icon icon="clear"></vs-icon>
                     </label>
@@ -57,7 +57,7 @@
                   >
                       <vs-select-item  value="1" text="Hiện" />
                       <vs-select-item  value="0" text="Ẩn" />
-                      <vs-select-item  value="2" text="Banner nhỏ" />
+                      <!-- <vs-select-item  value="2" text="Banner nhỏ" /> -->
                     </vs-select>
                   </div>
                 </div>

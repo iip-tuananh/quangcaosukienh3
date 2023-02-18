@@ -653,7 +653,7 @@
                                                 <figure class="rollover-project rollover-active">
                                                     <a href="{{route('detailProduct',['slug'=>$pro->slug])}}" class="layzr-bg" title="z3189688527599_42d88b7855b5d539b782dcdaa47c15a8"  aria-label="Post image"><img class="preload-me iso-lazy-load" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20485%20364&#39;%2F%3E" data-src="{{$img[0]}}" data-srcset="{{$img[0]}} 485w, {{$img[0]}} 599w" alt="" width="485" height="364"  /></a>		
                                                     <figcaption class="rollover-content">
-                                                        <div class="links-container"><a href="{{route('detailProduct',['slug'=>$pro->slug])}}" class="project-link no-text" target="_blank" rel="noopener">Link</a></div>
+                                                        <div class="links-container"><a href="{{route('detailProduct',['slug'=>$pro->slug])}}" class="project-link no-text"  rel="noopener">Link</a></div>
                                                         <div class="rollover-content-container">
                                                             <div class="entry-meta portfolio-categories"><span class="category-link"><a href="{{route('detailProduct',['slug'=>$pro->slug])}}">{{languageName($pro->name)}}</a></span></div>
                                                         </div>
@@ -688,7 +688,7 @@
                                             </div>
                                         </div>
                                         <div class="aio-icon-header" >
-                                            <a class="aio-icon-box-link" href="javascript:;" target=" _blank">
+                                            <a class="aio-icon-box-link" href="javascript:;" t>
                                                 <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-8883 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:30px;","line-height":"desktop:30px;"}'  style="font-family:'Open Sans Condensed';font-weight:700;color:#405b64;">TẦM NHÌN</h3>
                                             </a>
                                         </div>
@@ -717,7 +717,7 @@
                                             </div>
                                         </div>
                                         <div class="aio-icon-header" >
-                                            <a class="aio-icon-box-link" href="javascript:;" target=" _blank">
+                                            <a class="aio-icon-box-link" href="javascript:;" t>
                                                 <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-4152 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:30px;","line-height":"desktop:30px;"}'  style="font-family:'Open Sans Condensed';font-weight:700;color:#405b64;">SỨ MỆNH</h3>
                                             </a>
                                         </div>
@@ -746,7 +746,7 @@
                                             </div>
                                         </div>
                                         <div class="aio-icon-header" >
-                                            <a class="aio-icon-box-link" href="javascript:;" target=" _blank">
+                                            <a class="aio-icon-box-link" href="javascript:;" t>
                                                 <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-6909 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:30px;","line-height":"desktop:30px;"}'  style="font-family:'Open Sans Condensed';font-weight:700;color:#405b64;">GIÁ TRỊ</h3>
                                             </a>
                                         </div>
@@ -775,7 +775,7 @@
                                             </div>
                                         </div>
                                         <div class="aio-icon-header" >
-                                            <a class="aio-icon-box-link" href="javascript:;" target=" _blank">
+                                            <a class="aio-icon-box-link" href="javascript:;" t>
                                                 <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1241 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:30px;","line-height":"desktop:30px;"}'  style="font-family:'Open Sans Condensed';font-weight:700;color:#405b64;">CAM KẾT</h3>
                                             </a>
                                         </div>
@@ -804,7 +804,7 @@
                                             </div>
                                         </div>
                                         <div class="aio-icon-header" >
-                                            <a class="aio-icon-box-link" href="javascript:;" target=" _blank">
+                                            <a class="aio-icon-box-link" href="javascript:;" t>
                                                 <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-3643 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:30px;","line-height":"desktop:30px;"}'  style="font-family:'Open Sans Condensed';font-weight:700;color:#405b64;">VĂN HÓA</h3>
                                             </a>
                                         </div>
@@ -833,7 +833,7 @@
                                             </div>
                                         </div>
                                         <div class="aio-icon-header" >
-                                            <a class="aio-icon-box-link" href="javascript:;" target=" _blank">
+                                            <a class="aio-icon-box-link" href="javascript:;" t>
                                                 <h3 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-1102 .aio-icon-title'  data-responsive-json-new='{"font-size":"desktop:30px;","line-height":"desktop:30px;"}'  style="font-family:'Open Sans Condensed';font-weight:700;color:#405b64;">NHÂN SỰ</h3>
                                             </a>
                                         </div>

@@ -22,7 +22,7 @@
           <div class="assistive-text">You are here:</div>
           <ol class="breadcrumbs text-small" itemscope itemtype="https://schema.org/BreadcrumbList">
              <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="https://duckienad.com/" title=""><span itemprop="name">Home</span></a>
+                <a itemprop="item" href="{{route('home')}}" title=""><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1" />
              </li>
              <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">

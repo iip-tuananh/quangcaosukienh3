@@ -37,7 +37,7 @@
                </ul>
                <div class="soc-ico">
                <p class="assistive-text">Find us on:</p>
-               <a title="Facebook page opens in new window" href="javascript:;" target="_blank" class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook page opens in new window</span></a><a title="Twitter page opens in new window" href="javascript:;" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter page opens in new window</span></a><a title="YouTube page opens in new window" href="javascript:;" target="_blank" class="you-tube"><span class="soc-font-icon"></span><span class="screen-reader-text">YouTube page opens in new window</span></a><a title="Linkedin page opens in new window" href="javascript:;" target="_blank" class="linkedin"><span class="soc-font-icon"></span><span class="screen-reader-text">Linkedin page opens in new window</span></a><a title="Tumblr page opens in new window" href="javascript:;" target="_blank" class="tumbler"><span class="soc-font-icon"></span><span class="screen-reader-text">Tumblr page opens in new window</span></a><a title="Pinterest page opens in new window" href="javascript:;" target="_blank" class="pinterest"><span class="soc-font-icon"></span><span class="screen-reader-text">Pinterest page opens in new window</span></a><a title="Skype page opens in new window" href="skype:quangcaoduckien?chat" target="_blank" class="skype"><span class="soc-font-icon"></span><span class="screen-reader-text">Skype page opens in new window</span></a><a title="Reddit page opens in new window" href="javascript:;" target="_blank" class="reddit"><span class="soc-font-icon"></span><span class="screen-reader-text">Reddit page opens in new window</span></a>
+               <a title="Facebook page opens in new window" href="javascript:;"  class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook page opens in new window</span></a><a title="Twitter page opens in new window" href="javascript:;"  class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter page opens in new window</span></a><a title="YouTube page opens in new window" href="javascript:;"  class="you-tube"><span class="soc-font-icon"></span><span class="screen-reader-text">YouTube page opens in new window</span></a><a title="Linkedin page opens in new window" href="javascript:;"  class="linkedin"><span class="soc-font-icon"></span><span class="screen-reader-text">Linkedin page opens in new window</span></a><a title="Tumblr page opens in new window" href="javascript:;"  class="tumbler"><span class="soc-font-icon"></span><span class="screen-reader-text">Tumblr page opens in new window</span></a><a title="Pinterest page opens in new window" href="javascript:;"  class="pinterest"><span class="soc-font-icon"></span><span class="screen-reader-text">Pinterest page opens in new window</span></a><a title="Skype page opens in new window" href="javascript:;"  class="skype"><span class="soc-font-icon"></span><span class="screen-reader-text">Skype page opens in new window</span></a><a title="Reddit page opens in new window" href="javascript:;"  class="reddit"><span class="soc-font-icon"></span><span class="screen-reader-text">Reddit page opens in new window</span></a>
                </div>
          </section>
          <section id="presscore-custom-menu-one-3" class="widget widget_presscore-custom-menu-one wf-cell wf-1-4">
@@ -69,10 +69,10 @@
       <div class="wf-container-bottom">
          <div id="branding-bottom"></div>
          <div class="wf-float-left">
-               <strong>© 2011 - 2022 Công ty TNHH Quảng cáo và Nội thất Đức Kiên. 
+               <strong>© 2011 - 2022 {{$setting->company}} 
          <div class="wf-float-right">
                <div class="bottom-text-block">
-               <p>Website by SBT Sofware.<br />
+               <p>-   &nbsp;Website by SBT Sofware.<br />
                  
                </p>
                </div>

@@ -179,10 +179,10 @@ export default {
               name: "Quản lý banner",
               path: "/banner",
             },
-            {
-              name: "Quản lý đối tác",
-              path: "/partner",
-            },
+            // {
+            //   name: "Quản lý đối tác",
+            //   path: "/partner",
+            // },
             // {
             //   name: "Thư viện ảnh",
             //   path: "/prize",
@@ -242,17 +242,17 @@ export default {
             }
           ],
         },
-        {
-          icon: "mdi mdi-newspaper menu-icon",
-          name: "Quản lý Review",
-          route_name: "",
-          sub: [
-            {
-              name: "Danh sách dịch vụ",
-              path: "/reviewCus",
-            }
-          ],
-        },
+        // {
+        //   icon: "mdi mdi-newspaper menu-icon",
+        //   name: "Quản lý Review",
+        //   route_name: "",
+        //   sub: [
+        //     {
+        //       name: "Danh sách dịch vụ",
+        //       path: "/reviewCus",
+        //     }
+        //   ],
+        // },
       ],
     };
   },
