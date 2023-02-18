@@ -13,8 +13,8 @@
     top: -11px;
     left: 10px;
     position: absolute;
-    background-color: rgb(253, 249, 0);
-    border-radius: 10% 89% 90% 10% / 54% 51% 50% 49% ;
+    background-color: rgb(182 120 72);
+    border-radius: 10% 89% 90% 10% / 54% 51% 50% 49%;
     z-index: 1;
 }
 .pd-t-10{
