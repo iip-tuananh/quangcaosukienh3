@@ -131,13 +131,13 @@
         var cnArgs = {"ajaxUrl":"https:\/\/duckienad.com\/wp-admin\/admin-ajax.php","nonce":"3e8522be0f","hideEffect":"fade","position":"top","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"1","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1"};
         /* ]]> */
     </script>
+    <style>
+        .img-moblie{
+background-image: url('{{$setting->logo}}');
+}
+    </style>
     <script async src="{{asset('frontend/js/545b0.js')}}"></script>
-    <script type='text/javascript' id='dt-above-fold-js-extra'>
-        /* <![CDATA[ */
-        var dtLocal = {"themeUrl":"https:\/\/duckienad.com\/wp-content\/themes\/dt-the7","passText":"To view this protected post, enter the password below:","moreButtonText":{"loading":"Loading...","loadMore":"T\u1ea3i th\u00eam"},"postID":"363","ajaxurl":"https:\/\/duckienad.com\/wp-admin\/admin-ajax.php","REST":{"baseUrl":"https:\/\/duckienad.com\/wp-json\/the7\/v1","endpoints":{"sendMail":"\/send-mail"}},"contactMessages":{"required":"One or more fields have an error. Please check and try again.","terms":"Please accept the privacy policy.","fillTheCaptchaError":"Please, fill the captcha."},"captchaSiteKey":"","ajaxNonce":"1424f47a30","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"off","lazyLoading":false,"accentColor":{"mode":"solid","color":"#12b24c"},"desktopHeader":{"height":170},"ToggleCaptionEnabled":"disabled","ToggleCaption":"Navigation","floatingHeader":{"showAfter":240,"showMenu":true,"height":40,"logo":{"showLogo":false,"html":"<img class=\" preload-me\" src=\"https:\/\/duckienad.com\/wp-content\/uploads\/2018\/05\/Logo-DUCKIEN-symbol-1.png\" srcset=\"https:\/\/duckienad.com\/wp-content\/uploads\/2018\/05\/Logo-DUCKIEN-symbol-1.png 64w, https:\/\/duckienad.com\/wp-content\/uploads\/2018\/05\/Logo-DUCKIEN-symbol-1.png 64w\" width=\"64\" height=\"64\"   sizes=\"64px\" alt=\"\u0110\u1ee9c Ki\u00ean AD\" \/>","url":"https:\/\/duckienad.com\/"}},"topLine":{"floatingTopLine":{"logo":{"showLogo":false,"html":""}}},"mobileHeader":{"firstSwitchPoint":1150,"secondSwitchPoint":778,"firstSwitchPointHeight":60,"secondSwitchPointHeight":60,"mobileToggleCaptionEnabled":"disabled","mobileToggleCaption":"Menu"},"stickyMobileHeaderFirstSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/duckienad.com\/wp-content\/uploads\/2018\/06\/Logo-DUCKIEN-MOBILE-ok.png\" srcset=\"https:\/\/duckienad.com\/wp-content\/uploads\/2018\/06\/Logo-DUCKIEN-MOBILE-ok.png 179w\" width=\"179\" height=\"43\"   sizes=\"179px\" alt=\"\u0110\u1ee9c Ki\u00ean AD\" \/>"}},"stickyMobileHeaderSecondSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/duckienad.com\/wp-content\/uploads\/2018\/06\/Logo-DUCKIEN-MOBILE-ok.png\" srcset=\"https:\/\/duckienad.com\/wp-content\/uploads\/2018\/06\/Logo-DUCKIEN-MOBILE-ok.png 179w\" width=\"179\" height=\"43\"   sizes=\"179px\" alt=\"\u0110\u1ee9c Ki\u00ean AD\" \/>"}},"content":{"textColor":"#8b8d94","headerColor":"#333333"},"sidebar":{"switchPoint":990},"boxedWidth":"1340px","stripes":{"stripe1":{"textColor":"#7e7e7e","headerColor":"#3a3a3a"},"stripe2":{"textColor":"#999d9f","headerColor":"#ffffff"},"stripe3":{"textColor":"#3a3a3a","headerColor":"#3a3a3a"}}},"VCMobileScreenWidth":"778"};
-        var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Tweet","pinterest":"Pin it","linkedin":"Share on Linkedin","whatsapp":"Share on Whatsapp"},"overlayOpacity":"85"};
-        /* ]]> */
-    </script>
+    <script src="{{asset('frontend/js/new.js')}}"></script>
     <script src="{{asset('frontend/js/ac093.js')}}"></script>
     <script data-cfasync="false">
         window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {

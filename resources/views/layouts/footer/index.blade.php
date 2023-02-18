@@ -27,7 +27,7 @@
 @media only screen and (max-width:768px){
    .box-cus {
 	display: flex;
-   transform: translateX(0px) !important;
+    transform: translateX(-110px);
 }
 }
 
