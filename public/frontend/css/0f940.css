@@ -14025,7 +14025,7 @@ a.text-primary:hover {
 }
 
 .footer .color-primary {
-    color: #c1c1c1
+    color: #ffbc00;
 }
 
 a.color-primary {
@@ -14053,7 +14053,7 @@ a.color-primary:hover {
 
 a,
 a:hover {
-    color: #12b24c
+    color: #6e466a;
 }
 
 #page .color-accent {
@@ -16476,7 +16476,7 @@ ul.product_list_widget li a,
 
 .footer .widget-title,
 .footer .elementor-widget .woocommerce h5 {
-    color: #c1c1c1
+    color: #ffbc00;
 }
 
 .widget-title,
@@ -19012,7 +19012,7 @@ button.button.tinvwl-add-to-cart:hover>* {
 .give-submit.give-btn {
     background-color: #12b24c;
     background-image: none;
-    background: #12b24c;
+    background: #e4a929;
     background: -webkit-linear-gradient();
     background: linear-gradient()
 }
@@ -19812,7 +19812,7 @@ hr.gf_rule {
 }
 
 .footer .soc-ico a:not(:hover) .soc-font-icon {
-    color: #85868c
+    color: #ffffff;
 }
 
 blockquote:not(.shortcode-blockquote):not(.elementor-blockquote),
@@ -20535,7 +20535,7 @@ div.mc4wp-form button[type="submit"],
 }
 
 #footer.solid-bg {
-    background: rgba(26, 28, 32, 0.77) none repeat center top
+    background: rgb(78 71 51) none repeat center top;
 }
 
 #footer.footer-outline-decoration {
@@ -21799,7 +21799,7 @@ h3.gform_title,
 }
 
 .accent-icon-bg .aio-icon {
-    background: #12b24c !important
+    background: #d1b428 !important;
 }
 
 .accent-gradient .accent-icon-bg .aio-icon {
