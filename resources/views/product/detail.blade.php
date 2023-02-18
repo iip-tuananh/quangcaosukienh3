@@ -16,73 +16,191 @@ P2
 @section('js')
 @endsection
 @section('content')
-<main id="page-content">
-   <nav class="site-breadcrumb" aria-label="breadcrumb" style="background-image: url({{asset('frontend/images/bg-breadcrumb.jpg')}})">
-       <div class="container">
-           <div class="h2 text-uppercase break-word text-white"><span class="break-word d-block">{{languageName($product->name)}}</span></div>
+<div class="page-title title-left solid-bg breadcrumbs-mobile-off page-title-responsive-enabled bg-img-enabled">
+    <div class="wf-wrap">
+       <div class="page-title-head hgroup">
+          <h1 >{{languageName($product->name)}}</h1>
        </div>
-   </nav>
-   <section class="details-product">
-    <div class="container">
-        <div class="row margin-bottom-10 margin-bottom-20">
-            <div class="col-md-6">
-               <a data-src="{{$img[0]}}" data-fancybox="gallery">
-                <img class="big-image" src="{{$img[0]}}" alt="{{languageName($product->name)}}" loading="lazy">
-               </a>
-            </div>
-            <div class="c-box-small col-md-6">
-               <div class="row">
-                @foreach ($img as $key=>$item)
-                    @if ($key !=0 && $key < 4 )
-                    <div class="col-md-6 col-6 show-image">
-                        <a data-src="{{$item}}" data-fancybox="gallery">
-                        <img class="small-image" src="{{$item}}" alt="{{languageName($product->name)}}" loading="lazy">
-                        </a>
-                    </div>
-                    @endif
-                    @if ($key == 4)
-                    <div class="col-md-6 col-6 show-image">
-                        <a data-src="{{$item}}" data-fancybox="gallery">
-                           <img class="small-image" src="{{$item}}" alt="{{languageName($product->name)}}" loading="lazy">
-                           <p>XEM THÊM +{{count($img)-5}} ẢNH</p>
-                        </a>
-                     </div> 
-                    @endif
-                    @if ($key > 4)
-                    <div class="col-md-6 col-6" hidden>
-                        <a data-src="{{$item}}" data-fancybox="gallery">
-                        <img class="small-image" src="{{$item}}" alt="{{languageName($product->name)}}" loading="lazy">
-                        </a>
-                     </div>
-                    @endif
-                @endforeach
-               </div>
-            </div>
-         </div>
+       <div class="page-title-breadcrumbs">
+          <div class="assistive-text">You are here:</div>
+          <ol class="breadcrumbs text-small" itemscope itemtype="https://schema.org/BreadcrumbList">
+             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="{{route('home')}}" title=""><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1" />
+             </li>
+             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="{{route('allListProCate',['danhmuc'=>$product->cate->slug])}}" title=""><span itemprop="name">{{languageName($product->cate->name)}}</span></a>
+                <meta itemprop="position" content="2" />
+             </li>
+             <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name">{{languageName($product->name)}}</span>
+                <meta itemprop="position" content="3" />
+             </li>
+          </ol>
+       </div>
     </div>
-   </section>
-   <section class="single mb-0 mb-md-4 mt-md-0 mt-3">
-       <div class="container">
-           <div class="row">
-               <div class="col-lg-12">
-                   <div class="single-detail-content mb-4">
-                       <div class="col-12 px-0">
-                           <h1 class="h4 mb-3 entry-title text-justify text-dark">{{languageName($product->name)}}</h1>
-                           <div class="single-detail-meta my-3"> <span class="mr-3 mr-md-5"><i class="fa fa-user mr-2 text-primary"></i>{{$setting->company}}</span> <span class="mr-3 mr-md-5"><i class="fas fa-calendar-alt mr-2 text-primary"></i>{{date('d-m-Y', strtotime($product->created_at))}}</span>
-                               <p class="mt-2"><span><span><a href="{{route('home')}}" data-wpel-link="internal">Trang Chủ</a> » <span><a href="{{route('allProduct')}}" data-wpel-link="internal">Mặt hàng nhập khẩu</a> » <strong class="breadcrumb_last" aria-current="page">{{languageName($product->name)}}</strong></span></span></span></p>
-                           </div>
-                           <div class="text-justify the-content">
-                               <p><span style="font-weight: 400;">{!!languageName($product->description)!!}</span></p>
-                           </div>
-                           <div class="text-justify the-content">
-                            <p><span style="font-weight: 400;">{!!languageName($product->content)!!}</span></p>
-                        </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
+ </div>
+ <div id="main" class="sidebar-right sidebar-divider-vertical pd-100 pd-t-10">
+    <div class="main-gradient"></div>
+    <div class="wf-wrap">
+       <div class="wf-container-main">
+          <div id="content" class="content row" role="main">
+            <div>
+                <h5 >
+               <span class="h5-cus"> CHI TIẾT SẢN PHẨM</span> 
+               <span class="lop-phu-h5"></span>
+                </h5>
+            </div>
+            <br>
+            <br>
+                <div class="album album-cus "  >
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+            <style>
+            
+
+                .swiper {
+                width: 100%;
+                height: 100%;
+                }
+
+                .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+
+                .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                }
+
+                
+
+                .swiper {
+                width: 100%;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                }
+
+                .swiper-slide {
+                background-size: cover;
+                background-position: center;
+                }
+
+                .mySwiper2 {
+                height: 80%;
+                width: 100%;
+                }
+
+                .mySwiper {
+                height: 20%;
+                box-sizing: border-box;
+                padding: 10px 0;
+                }
+
+                .mySwiper .swiper-slide {
+                width: 25%;
+                height: 100%;
+                opacity: 0.4;
+                }
+
+                .mySwiper .swiper-slide-thumb-active {
+                opacity: 1;
+                }
+
+                .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                }
+            </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+@php
+    $imgs =json_decode($product->images);
+@endphp
+  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+        @foreach ($imgs as $item)
+            <div class="swiper-slide">
+            <img src="{{$item}}" />
+            </div>
+        @endforeach
+ 
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <div thumbsSlider="" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        @foreach ($imgs as $item)
+        <div class="swiper-slide">
+        <img src="{{$item}}" />
+        </div>
+    @endforeach
+   
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
+                </div>
+             <div class="noidung">
+                {!!languageName($product->content)!!}
+             </div>
+          </div>
+          <!-- #content -->
+          <aside id="sidebar" class="sidebar">
+             <div class="sidebar-content">
+               <strong style="color: red">DỊCH VỤ</strong>
+                <section id="presscore-custom-menu-one-5" class="widget widget_presscore-custom-menu-one">
+                    <ul class="custom-menu dividers-on show-arrow">
+                        @foreach ($servicehome as $item)
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1866 first"><a href="{{route('serviceDetail',['slug'=>$item->slug])}}">{{$item->name}}</a></li>
+                            
+                        @endforeach
+                    </ul>
+                </section>
+                
+             </div>
+          </aside>
+          <!-- #sidebar -->
        </div>
-   </section>
-</main>
+       <!-- .wf-container -->
+    </div>
+    <!-- .wf-wrap -->
+ </div>
+ <!-- #main -->
 @endsection
 

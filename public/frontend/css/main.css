@@ -1,0 +1,58 @@
+.h5-cus{
+    color: rgb(71, 71, 34);
+    font-size: 25px;
+    z-index: 10;
+    position: relative;
+    z-index: 10;
+    letter-spacing: 5px;
+}
+.lop-phu-h5{
+    content: '';
+    height: 50px;
+    width: 50px;
+    top: -11px;
+    left: 10px;
+    position: absolute;
+    background-color: rgb(253, 249, 0);
+    border-radius: 10% 89% 90% 10% / 54% 51% 50% 49% ;
+    z-index: 1;
+}
+.pd-t-10{
+  transform: translateY(70px);
+}
+.pad-30{
+    padding-bottom: 150px;
+}
+.pd-t-10 .lop-phu-h5{
+    transform: translateX(-15px);
+}
+.pd-100{
+    padding-bottom: 100px !important;
+}
+.vc_custom_tuan {
+    padding-top: 0px !important;
+    background-color: rgba(68, 68, 45, 0.774);
+    padding-top: 10px;
+}
+.album-cus{
+    height: 500px;
+    width: 500px;
+    float: center;
+}
+@media only screen and (max-width:500px){
+    .album-cus{
+        height: 100%;
+        width: 100%;
+      
+    }
+    
+}
+.limit-text-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    list-style: none !important;
+}

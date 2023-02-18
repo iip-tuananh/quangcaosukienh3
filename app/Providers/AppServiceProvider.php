@@ -49,7 +49,7 @@ class AppServiceProvider extends ServiceProvider
             }
             $language_current = Session::get('locale');
             $promotio = Promotion::where('status',1)->orderBy('id','DESC')->get();
-            $servicehome = Services::where('status',1)->limit(4)->orderBy('id','DESC')->get();
+            $servicehome = Services::where('status',1)->orderBy('id','DESC')->get();
             $setting = Setting::first();
             $lang = Language::get();
             $pageContent = PageContent::where(['language'=>$language_current,'status'=> 1])->get();
@@ -58,7 +58,7 @@ class AppServiceProvider extends ServiceProvider
                     $query->with(['typetwo'])->where('status',1)->orderBy('id','DESC')->select('cate_id','id', 'name','avatar','slug','cate_slug'); 
                 }
             ])->where('status',1)->orderBy('id','ASC')->get(['id','name','imagehome','avatar','slug','content','description'])->map(function ($query) {
-                $query->setRelation('product', $query->product->take(5));
+                $query->setRelation('product', $query->product->take(12));
                 return $query;
             });
             $banners = Banner::where(['status'=>1])->get(['id','image','link','title','description']);
