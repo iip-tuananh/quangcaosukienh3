@@ -14404,7 +14404,7 @@ blockquote,
 .dt-mobile-header .popup-search .submit i,
 .dt-mobile-header .overlay-search .submit i {
     font-size: 16px;
-    color: #2cd3b4
+    color: #b67848;
 }
 
 .mobile-header-bar .mobile-mini-widgets .popup-search .submit i,
@@ -14655,7 +14655,7 @@ a.mini-contacts:hover {
 
 .dt-mobile-header .mini-contacts i {
     font-size: 16px;
-    color: #2cd3b4
+    color: #b67848;
 }
 
 .mobile-header-bar .mobile-mini-widgets .mini-contacts {
@@ -15925,14 +15925,14 @@ html:not(.touchevents) .dt-mobile-header::-webkit-scrollbar-track {
 }
 
 .mobile-main-nav li.act>a {
-    color: #12b24c
+    color: #b67848;
 }
 
 .mobile-main-nav li.act>a .menu-text,
 .mobile-main-nav li.act>a .subtitle-text,
 .dt-mobile-header .mobile-main-nav .sub-nav>li.act>a .subtitle-text,
 .dt-mobile-header .mobile-main-nav .sub-nav>li.act>a .menu-text {
-    color: #12b24c
+    color: #b67848;
 }
 
 .mobile-main-nav li:not(.act)>a:hover .subtitle-text,
@@ -16012,7 +16012,7 @@ html:not(.touchevents) .dt-mobile-header::-webkit-scrollbar-track {
 }
 
 .mobile-hamburger-close-bg-enable .dt-close-mobile-menu-icon:before {
-    background-color: #12b24c
+    background-color: #b67848;
 }
 
 .accent-gradient.mobile-hamburger-close-bg-enable .dt-close-mobile-menu-icon:before {
@@ -16026,7 +16026,7 @@ html:not(.touchevents) .dt-mobile-header::-webkit-scrollbar-track {
 }
 
 .mobile-hamburger-close-bg-hover-enable .dt-close-mobile-menu-icon:after {
-    background-color: #12b24c
+    background-color: #b67848;
 }
 
 .accent-gradient.mobile-hamburger-close-bg-hover-enable .dt-close-mobile-menu-icon:after {
