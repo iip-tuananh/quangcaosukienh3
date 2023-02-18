@@ -9,10 +9,10 @@
                <div class="">
                   <div class="box-cus">
                      <div class="inner-cus">
-                       <span><img src ="{{$setting->logo}}" style="width:250px"></span>
+                       <span><img src ="{{$setting->logo}}" style="width:200px"></span>
                      </div>
                      <div class="inner-cus">
-                       <span><img src ="{{$setting->logo}}" style="width:250px"></span>
+                       <span><img src ="{{$setting->logo}}" style="width:200px"></span>
                      </div>
                    </div>
                
@@ -56,7 +56,7 @@
 }
 
 .box-cus .inner-cus span {
-   padding: 25px 0;
+   padding: 30px 0;
 	position: absolute;
 	animation: marquee 6s linear infinite;
 }
