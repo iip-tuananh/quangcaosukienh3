@@ -42,14 +42,14 @@
 }
 
 .box-cus .inner-cus:first-child {
-	background-color: indianred;
+	background-color: #704423;
 	color: darkred;
 	transform-origin: right;
 	transform: perspective(100px) rotateY(-15deg);
 }
 
 .box-cus .inner-cus:last-child {
-	background-color: lightcoral;
+	background-color: #b67848;
 	color: antiquewhite;
 	transform-origin: left;
 	transform: perspective(100px) rotateY(15deg);
@@ -57,11 +57,11 @@
 
 .box-cus .inner-cus span {
 	position: absolute;
-	animation: marquee 5s linear infinite;
+	animation: marquee 6s linear infinite;
 }
 
 .box-cus .inner-cus:first-child span {
-	animation-delay: 2.5s;
+	animation-delay: 3s;
 	left: -100%;
 }
 

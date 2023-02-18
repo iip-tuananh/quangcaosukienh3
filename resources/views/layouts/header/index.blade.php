@@ -32,7 +32,7 @@
 <nav class="navigation">
     <ul id="primary-menu" class="main-nav underline-decoration upwards-line level-arrows-on" role="menubar">
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-363 current_page_item menu-item-1601 act first" role="presentation"><a href='{{route('home')}}' data-level='1' role="menuitem"><i class="fa fa-home"></i><span class="menu-item-text"><span class="menu-text">TRANG CHỦ</span></span></a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3344 has-children" role="presentation">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3344 " role="presentation">
             <a href='{{route('aboutUs')}}'  data-level='1' role="menuitem"><i class="fa fa-list-alt"></i><span class="menu-item-text"><span class="menu-text">GIỚI THIỆU</span></span></a>
         </li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1599 has-children" role="presentation">
