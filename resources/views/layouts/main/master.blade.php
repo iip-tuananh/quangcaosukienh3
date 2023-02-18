@@ -203,7 +203,12 @@ background-image: url('{{$setting->logo}}');
         }
     </style>
 </head>
-<body data-rsssl=1 class="home page-template-default page page-id-363 wp-embed-responsive the7-core-ver-2.5.7.1 slideshow-on dt-responsive-on right-mobile-menu-close-icon ouside-menu-close-icon mobile-hamburger-close-bg-enable mobile-hamburger-close-bg-hover-enable  fade-medium-mobile-menu-close-icon fade-medium-menu-close-icon srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-slide phantom-shadow-decoration phantom-logo-off sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on no-avatars popup-message-style dt-fa-compatibility the7-ver-9.7.2 wpb-js-composer js-comp-ver-5.0.1 vc_responsive cookies-not-set">
+<body data-rsssl=1 class="home page-template-default page page-id-363 wp-embed-responsive the7-core-ver-2.5.7.1 slideshow-on dt-responsive-on right-mobile-menu-close-icon ouside-menu-close-icon mobile-hamburger-close-bg-enable mobile-hamburger-close-bg-hover-enable  fade-medium-mobile-menu-close-icon fade-medium-menu-close-icon srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-slide phantom-shadow-decoration phantom-logo-off sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on no-avatars popup-message-style dt-fa-compatibility the7-ver-9.7.2 wpb-js-composer js-comp-ver-5.0.1 vc_responsive cookies-not-set over-x-hidden">
+    <style>
+        .over-x-hidden{
+            overflow-x: hidden !important;
+        }
+    </style>
     <!-- The7 9.7.2 -->
     <div id="load" class="spinner-loader">
         <div class="load-wrap"></div>
