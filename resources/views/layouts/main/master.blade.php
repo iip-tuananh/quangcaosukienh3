@@ -167,10 +167,10 @@
     </script>
     <style>
         .hotline-phone-ring-circle {
-        border-color: ##b67848;
+        border-color: #b67848;
         }
         .hotline-phone-ring-circle-fill, .hotline-phone-ring-img-circle, .hotline-bar {
-        background-color: ##b67848;
+        background-color: #b67848;
         }
     </style>
     <style>
