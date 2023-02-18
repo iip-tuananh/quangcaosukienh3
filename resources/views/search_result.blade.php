@@ -14,7 +14,6 @@ Kết quả tìm kiếm
 <div class="page-title title-left solid-bg breadcrumbs-mobile-off page-title-responsive-enabled bg-img-enabled">
 	<div class="wf-wrap">
 	   <div class="page-title-head hgroup">
-		  <h1 >Những kết quả tìm kiếm của "<span>{{$keyword}}</span>"</h1>
 	   </div>
 	   <div class="page-title-breadcrumbs">
 		  <div class="assistive-text">You are here:</div>
@@ -31,9 +30,17 @@ Kết quả tìm kiếm
 	   </div>
 	</div>
  </div>
- <div id="main" class="sidebar-none sidebar-divider-vertical">
+ <div id="main" class="sidebar-none sidebar-divider-vertical  pd-100 pd-t-10">
 	<div class="main-gradient"></div>
 	<div class="wf-wrap">
+		<div>
+			<h5 >
+		   <span class="h5-cus">KẾT QUẢ TÌM KIẾM "{{$keyword}}"</span> 
+		   <span class="lop-phu-h5"></span>
+			</h5>
+			<br>
+			<br>
+		</div>
 	   <div class="wf-container-main">
 		  <!-- Content -->
 		  <div id="content" class="content" role="main">

@@ -299,6 +299,7 @@ Danh sách {{$title}}
             <div class="blog-shortcode archive-97edc79703c94cc1fc4e275a029cfebf mode-grid classic-layout-list content-bg-on meta-info-off dt-css-grid-wrap dt-icon-bg-off resize-by-browser-width loading-effect-none description-under-image " data-padding="15px" data-cur-page="1" data-post-limit="-1" data-pagination-mode="pages" data-desktop-columns-num="4" data-v-tablet-columns-num="2" data-h-tablet-columns-num="3" data-phone-columns-num="1" data-width="0px" data-columns="0">
                <div class="dt-css-grid" >
                 @foreach ($list as $pro)
+              
                   @include('layouts.product.item')
                 @endforeach
                </div>
