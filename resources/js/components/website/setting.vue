@@ -24,196 +24,25 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Văn phòng tại Hà Nội</label>
-                  <div v-for="(item, index) in objData.address1" :key="index">
-                  <div class="row">
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Tên văn phòng (nếu có)"
-                        class="w-100"
-                        v-model="objData.address1[index].name"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Mã văn phòng (nếu có)"
-                        class="w-100"
-                        v-model="objData.address1[index].name_code"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Số điện thoại"
-                        class="w-100"
-                        v-model="objData.address1[index].phone_number"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Địa chỉ"
-                        class="w-100"
-                        v-model="objData.address1[index].address"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Ghi chú (nếu có)"
-                        class="w-100"
-                        v-model="objData.address1[index].note"
-                      />
-                    </div>
-                    <div class="col-2">
-                      <a
-                        href="javascript:;"
-                        v-if="index != 0"
-                        @click="remoteAr(index,'address1')"
-                      >
-                        <img v-bind:src="'/media/' + joke.avatar" width="25" />
-                      </a>
-                    </div>
-                  </div><br>
-                  </div>
-                  <el-button size="small" @click="addInput('address1')"
-                  >Thêm địa chỉ tại Hà Nội</el-button>
+                  <label>Văn phòng đại diện</label>
+                  <vs-input
+                    type="text"
+                    size="default"
+                    class="w-100"
+                    v-model="objData.address1"
+                  />
                 </div>
                 <div class="form-group">
-                  <label>Địa chỉ tại Quảng Châu</label>
-                  <div v-for="(item, index) in objData.address2" :key="index">
-                  <div class="row">
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Tên văn phòng (nếu có)"
-                        class="w-100"
-                        v-model="objData.address2[index].name"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="收货名 (nếu có)"
-                        class="w-100"
-                        v-model="objData.address2[index].name_code"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="电话"
-                        class="w-100"
-                        v-model="objData.address2[index].phone_number"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="收货地址"
-                        class="w-100"
-                        v-model="objData.address2[index].address"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="请标注外箱大写 (nếu có)"
-                        class="w-100"
-                        v-model="objData.address2[index].note"
-                      />
-                    </div>
-                    <div class="col-2">
-                      <a
-                        href="javascript:;"
-                        v-if="index != 0"
-                        @click="remoteAr(index,'address2')"
-                      >
-                        <img v-bind:src="'/media/' + joke.avatar" width="25" />
-                      </a>
-                    </div>
-                  </div><br>
-                  </div>
-                  <el-button size="small" @click="addInput('address2')"
-                  >Thêm địa chỉ tại Quảng Châu</el-button>
+                  <label>Địa chỉ</label>
+                  <vs-input
+                    type="text"
+                    size="default"
+                    class="w-100"
+                    v-model="objData.address2"
+                  />
                 </div>
                 <div class="form-group">
-                  <label>Địa chỉ tại Bằng Tường</label>
-                  <div v-for="(item, index) in objData.address3" :key="index">
-                  <div class="row">
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="Tên văn phòng (nếu có)"
-                        class="w-100"
-                        v-model="objData.address3[index].name"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="收货名 (nếu có)"
-                        class="w-100"
-                        v-model="objData.address3[index].name_code"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="电话"
-                        class="w-100"
-                        v-model="objData.address3[index].phone_number"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="收货地址"
-                        class="w-100"
-                        v-model="objData.address3[index].address"
-                      />
-                    </div>
-                    <div class="col-10">
-                      <vs-input
-                        type="text"
-                        size="default"
-                        placeholder="请标注外箱大写 (nếu có)"
-                        class="w-100"
-                        v-model="objData.address3[index].note"
-                      />
-                    </div>
-                    <div class="col-2">
-                      <a
-                        href="javascript:;"
-                        v-if="index != 0"
-                        @click="remoteAr(index,'address3')"
-                      >
-                        <img v-bind:src="'/media/' + joke.avatar" width="25" />
-                      </a>
-                    </div>
-                  </div><br>
-                  </div>
-                  <el-button size="small" @click="addInput('address3')"
-                  >Thêm địa chỉ tại Bằng Tường</el-button>
-                </div>
-                <div class="form-group">
-                  <label>Số hotline 1</label>
+                  <label>Số hotline</label>
                   <vs-input
                     type="text"
                     size="default"
@@ -222,7 +51,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Số hotline 2</label>
+                  <label>Số điện thoại kĩ thuật</label>
                   <vs-input
                     type="text"
                     size="default"
@@ -231,7 +60,16 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Fax</label>
+                  <label>Số điện thoại tư vấn</label>
+                  <vs-input
+                    type="text"
+                    size="default"
+                    class="w-100"
+                    v-model="objData.phone3"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Mã số thuế</label>
                   <vs-input
                     type="text"
                     size="default"
@@ -258,7 +96,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Google</label>
+                  <label>Chat messenger</label>
                   <vs-input
                     type="text"
                     size="default"
@@ -267,12 +105,21 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>Code Google analytics</label>
+                  <label>Instagram</label>
                   <vs-input
                     type="text"
                     size="default"
                     class="w-100"
                     v-model="objData.GA"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Youtube</label>
+                  <vs-input
+                    type="text"
+                    size="default"
+                    class="w-100"
+                    v-model="objData.fbPixel"
                   />
                 </div>
                 <div class="form-group">
@@ -292,7 +139,7 @@
                   <label>Logo</label>
                   <image-upload type="avatar" v-model="objData.logo" :title="'logo'"></image-upload>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label>Ảnh Popup</label>
                   <image-upload type="avatar" v-model="objData.popupimage" :title="'popupimage'"></image-upload>
                 </div>
@@ -312,7 +159,7 @@
                       <vs-select-item  value="1" text="Hiện" />
                       <vs-select-item  value="0" text="Ẩn" />
                     </vs-select>
-                </div>
+                </div> -->
               <vs-button color="primary" @click="saveSetting">Lưu</vs-button>
             </div>
           </div>
@@ -331,42 +178,15 @@ export default {
   name: "setting",
   data() {
     return {
-      joke: {
-        avatar: "delete-sign--v2.png",
-      },
       objData:
         {
             webname : "",
             company : "",
-            address1: [
-              {
-                name: '',
-                name_code: '',
-                phone_number: '',
-                address: '',
-                note: '',
-              }
-            ],
-            address2 : [
-              {
-                name: '',
-                name_code: '',
-                phone_number: '',
-                address: '',
-                note: '',
-              }
-            ],
-            address3 : [
-              {
-                name: '',
-                name_code: '',
-                phone_number: '',
-                address: '',
-                note: '',
-              }
-            ],
+            address1: "",
+            address2 : "",
             phone1 : "",
             phone2 : "",
+            phone3 : "",
             fax : "",
             email : "",
             facebook : "",
@@ -405,52 +225,10 @@ export default {
       this.getSetting().then(response => {
         this.loadings(false);
         this.objData = response.data
-        this.objData.address1 = JSON.parse(response.data.address1);
-        this.objData.address2 = JSON.parse(response.data.address2);
-        this.objData.address3 = JSON.parse(response.data.address3);
       }).catch(error => {
         this.loadings(false);;
       })
-    },
-    remoteAr(index,key) {
-      if(key == 'address1'){
-        this.objData.address1.splice(index, 1);
-      }
-      if(key == 'address2'){
-        this.objData.address2.splice(index, 1);
-      }
-      if(key == 'address3'){
-        this.objData.address3.splice(index, 1);
-      }
-        
-    },
-    addInput(key) {
-        var oj = {};
-        if(key =='address1'){
-          oj.name = "";
-          oj.name_code = "";
-          oj.phone_number = "";
-          oj.address = "";
-          oj.note = "";
-          this.objData.address1.push(oj);
-        }
-        if(key =='address2'){
-          oj.name = "";
-          oj.name_code = "";
-          oj.phone_number = "";
-          oj.address = "";
-          oj.note = "";
-          this.objData.address2.push(oj);
-        }
-        if(key =='address3'){
-          oj.name = "";
-          oj.name_code = "";
-          oj.phone_number = "";
-          oj.address = "";
-          oj.note = "";
-          this.objData.address3.push(oj);
-        }
-    },
+    }
   },
   mounted() {
     this.listSettings();
