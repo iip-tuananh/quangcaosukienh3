@@ -27,7 +27,7 @@ class SettingController extends Controller
 	    	$setting->company = $request->company;
 	    	$setting->address1 = $request->address1;
 	    	$setting->address2 = $request->address2;
-	    	$setting->address3 = $request->address3;
+	    
 	    	$setting->phone1 = $request->phone1;
 	    	$setting->phone2 = $request->phone2;
 	    	$setting->fax = $request->fax;
@@ -51,7 +51,7 @@ class SettingController extends Controller
 	    	$setting->company = $request->company;
 	    	$setting->address1 = $request->address1;
 	    	$setting->address2 = $request->address2;
-	    	$setting->address3 = $request->address3;
+	    	
 	    	$setting->phone1 = $request->phone1;
 	    	$setting->phone2 = $request->phone2;
 	    	$setting->fax = $request->fax;
