@@ -15213,31 +15213,31 @@ a.mini-contacts:hover {
 }
 
 .main-nav>li.act:not(.wpml-ls-item)>a {
-    color: #12b24c
+    color: #8f352a;
 }
 
 .sticky-on .main-nav>li.act:not(.wpml-ls-item)>a,
 #phantom .main-nav>li.act:not(.wpml-ls-item)>a {
-    color: #12b24c
+    color: #8f352a;
 }
 
 .main-nav>li.act:not(.wpml-ls-item)>a .menu-text,
 .main-nav>li.act:not(.wpml-ls-item)>a .subtitle-text {
-    color: #12b24c
+    color: #8f352a;
 }
 
 .sticky-on .main-nav>li.act:not(.wpml-ls-item)>a .menu-text,
 #phantom .main-nav>li.act:not(.wpml-ls-item)>a .menu-text,
 .sticky-on .main-nav>li.act:not(.wpml-ls-item)>a .subtitle-text,
 #phantom .main-nav>li.act:not(.wpml-ls-item)>a .subtitle-text {
-    color: #12b24c
+    color: #8f352a;
 }
 
 .main-nav>li:not(.act):not(.wpml-ls-item)>a:hover .subtitle-text,
 .main-nav>li:not(.act):not(.wpml-ls-item)>a:hover .menu-text,
 .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a .subtitle-text,
 .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a .menu-text {
-    color: #12b24c
+    color: #e4a929;
 }
 
 .sticky-on .main-nav>li:not(.act):not(.wpml-ls-item)>a:hover .subtitle-text,
@@ -15248,19 +15248,19 @@ a.mini-contacts:hover {
 #phantom .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a .subtitle-text,
 .sticky-on .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a .menu-text,
 #phantom .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a .menu-text {
-    color: #12b24c
+    color: #e4a929;
 }
 
 .main-nav>li:not(.act):not(.wpml-ls-item)>a:hover,
 .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a {
-    color: #12b24c
+    color: #e4a929;
 }
 
 .sticky-on .main-nav>li:not(.act):not(.wpml-ls-item)>a:hover,
 #phantom .main-nav>li:not(.act):not(.wpml-ls-item)>a:hover,
 .sticky-on .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a,
 #phantom .main-nav>li.dt-hovered:not(.act):not(.wpml-ls-item)>a {
-    color: #12b24c
+    color: #e4a929;
 }
 
 .top-header .main-nav.level-arrows-on>li.has-children>a .menu-text:after {
@@ -15284,14 +15284,14 @@ a.mini-contacts:hover {
 
 .top-header .main-nav.level-arrows-on>li.has-children:not(.act)>a:hover .menu-text:after,
 .top-header .main-nav.level-arrows-on>li.dt-hovered.has-children:not(.act)>a .menu-text:after {
-    color: #12b24c
+    color: #e4a929;
 }
 
 .sticky-on .main-nav.level-arrows-on>li.has-children:not(.act)>a:hover .menu-text:after,
 #phantom .main-nav.level-arrows-on>li.has-children:not(.act)>a:hover .menu-text:after,
 .sticky-on .main-nav.level-arrows-on>li.dt-hovered.has-children:not(.act)>a .menu-text:after,
 #phantom .main-nav.level-arrows-on>li.dt-hovered.has-children:not(.act)>a .menu-text:after {
-    color: #12b24c
+    color: #e1a729;
 }
 
 .top-header .main-nav.level-arrows-on>li.has-children.act>a .menu-text:after {
@@ -15413,7 +15413,7 @@ a.mini-contacts:hover {
     bottom: -7px;
     height: 2px;
     background-color: #12b24c;
-    background: #12b24c;
+    background: #e4a929;
     background: -webkit-linear-gradient();
     background: linear-gradient()
 }

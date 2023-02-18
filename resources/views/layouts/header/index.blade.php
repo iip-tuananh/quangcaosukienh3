@@ -17,7 +17,7 @@
             <tbody>
                 <tr>
                     <td style="width: 60px;"><a href="tel:0946095000"><img src="{{asset('frontend/images/phone_left.png')}}" alt="Gọi điện đặt làm biển quảng cáo" width="60" height="60" title="Gọi điện đặt làm biển quảng cáo"></a></td>
-                    <td style="width: 291.017px;"><span style="font-size: 15px; line-height: 17px; color: #12b24c;">TƯ VẤN KHÁCH HÀNG 24/7</span><br /> <span style="font-size: 32px; line-height: 32px; color: #12b24c;">{{$setting->phone1}}</span></td>
+                    <td style="width: 291.017px;"><span style="font-size: 15px; line-height: 17px; color: #923929;">TƯ VẤN KHÁCH HÀNG 24/7</span><br /> <span style="font-size: 32px; line-height: 32px; color: #923929;">{{$setting->phone1}}</span></td>
                 </tr>
             </tbody>
             </table>
