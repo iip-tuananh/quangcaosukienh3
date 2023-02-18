@@ -14,7 +14,6 @@
 @section('js')
 @endsection
 @section('content')
-
 <div class="page-title title-left solid-bg breadcrumbs-mobile-off page-title-responsive-enabled bg-img-enabled">
    <div class="wf-wrap">
       
