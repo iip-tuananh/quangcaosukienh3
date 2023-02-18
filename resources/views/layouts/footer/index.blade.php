@@ -9,10 +9,10 @@
                <div class="">
                   <div class="box-cus">
                      <div class="inner-cus">
-                       <span><img src ="{{$setting->logo}}"></span>
+                       <span><img src ="{{$setting->logo}}" style="width:100px"></span>
                      </div>
                      <div class="inner-cus">
-                       <span><img src ="{{$setting->logo}}"></span>
+                       <span><img src ="{{$setting->logo}}" style="width:100px"></span>
                      </div>
                    </div>
                
