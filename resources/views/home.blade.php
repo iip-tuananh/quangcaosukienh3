@@ -661,6 +661,7 @@
                                                 </figure>
                                             </article>
                                         </div>
+                                        <br>
                                         @endforeach
                                     </div>
                                     @endforeach
