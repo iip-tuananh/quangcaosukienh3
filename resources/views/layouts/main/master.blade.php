@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="vi" prefix="og: https://ogp.me/ns#" class="no-js">
-<head>
+<html lang="vi" prefix="og: https://ogp.me/ns#" class="no-js over-x-hidden" >
+<head class="over-x-hidden">
     <meta charset="UTF-8" />
     <link rel="icon" href="{{ url('' . $setting->favicon) }}" type="image/x-icon" />
     <link rel="apple-touch-icon" href="{{ url('' . $setting->favicon) }}">
