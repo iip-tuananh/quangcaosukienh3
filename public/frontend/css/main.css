@@ -16,6 +16,10 @@
     background-color: rgb(182 120 72);
     border-radius: 10% 89% 90% 10% / 54% 51% 50% 49%;
     z-index: 1;
+    animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite;
 }
 .pd-t-10{
   transform: translateY(70px);
@@ -39,6 +43,18 @@
     width: 500px;
     float: center;
 }
+@keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
 @media only screen and (max-width:500px){
     .album-cus{
         height: 100%;
