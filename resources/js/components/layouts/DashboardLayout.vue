@@ -133,10 +133,10 @@ export default {
           name: "Quản lý tin tức",
           route_name: "",
           sub: [
-            {
-              name: "Danh mục tin tức",
-              path: "/blog/category",
-            },
+            // {
+            //   name: "Danh mục tin tức",
+            //   path: "/blog/category",
+            // },
             {
               name: "Danh sách tin tức",
               path: "/blogs",

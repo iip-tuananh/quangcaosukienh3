@@ -122,13 +122,13 @@
                   />
                 </vs-select>
               </div> -->
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <label>Hiển thị trang chủ</label>
                 <vs-select v-model="objData.discountStatus">
                   <vs-select-item value="1" text="Có" />
                   <vs-select-item value="0" text="Không" />
                 </vs-select>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
