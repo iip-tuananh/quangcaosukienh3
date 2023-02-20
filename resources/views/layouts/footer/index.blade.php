@@ -98,11 +98,11 @@
                <div class="widget-title">KẾT NỐI VỚI CHÚNG TÔI</div>
                <ul class="contact-info">
                   @if ($setting->address1 != '')
-                  <li><span class="color-primary">Địa chỉ:</span><br />{{$setting->address1}}</li>
+                  <li><span class="color-primary">Địa chỉ 1:</span><br />{{$setting->address1}}</li>
                       
                   @endif
                   @if ($setting->address2 != '')
-                  <li><span class="color-primary">Địa chỉ:</span><br />{{$setting->address2}}</li>
+                  <li><span class="color-primary">Địa chỉ 2:</span><br />{{$setting->address2}}</li>
                       
                   @endif
                <li><span class="color-primary">Giờ làm việc:</span><br />Mon-Sat: 7.45AM - 5.30PM</li>
