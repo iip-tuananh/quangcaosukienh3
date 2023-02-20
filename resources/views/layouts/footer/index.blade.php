@@ -97,7 +97,14 @@
          <section id="presscore-contact-info-widget-3" class="widget widget_presscore-contact-info-widget wf-cell wf-1-4">
                <div class="widget-title">KẾT NỐI VỚI CHÚNG TÔI</div>
                <ul class="contact-info">
-               <li><span class="color-primary">Địa chỉ:</span><br />{{$setting->address1}}</li>
+                  @if ($setting->address1 != '')
+                  <li><span class="color-primary">Địa chỉ:</span><br />{{$setting->address1}}</li>
+                      
+                  @endif
+                  @if ($setting->address2 != '')
+                  <li><span class="color-primary">Địa chỉ:</span><br />{{$setting->address2}}</li>
+                      
+                  @endif
                <li><span class="color-primary">Giờ làm việc:</span><br />Mon-Sat: 7.45AM - 5.30PM</li>
                <li><span class="color-primary">Thông tin liên hệ:</span><br /><b>* Văn phòng:</b> {{$setting->phone1}}<br>
                   @if($setting->phone1 != '')
