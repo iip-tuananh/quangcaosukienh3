@@ -11,7 +11,7 @@
                flex-direction: column;">
                   <div class="box-cus">
                   
-                       <marquee behavior="" direction=""><img src ="{{$setting->logo}}" style="width:200px"></marquee></span>
+                       <marquee behavior="alternate" direction=""><img src ="{{$setting->logo}}" style="width:200px"></marquee></span>
                 
                    </div>
                
@@ -19,6 +19,7 @@
                
              <style>
   .box-cus{
+   width: 100%;
    
   }
              </style>
