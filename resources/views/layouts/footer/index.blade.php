@@ -19,7 +19,7 @@
                
              <style>
   .box-cus{
-   background: red;
+   
   }
              </style>
              <br>
