@@ -6,80 +6,25 @@
          
          <section id="text-2" class="widget widget_text wf-cell wf-1-4">
             
-               <div class="">
+               <div class="" style="align-items: center;
+               display: flex;
+               flex-direction: column;">
                   <div class="box-cus">
-                     <div class="inner-cus">
-                       <span><img src ="{{$setting->logo}}" style="width:200px"></span>
-                     </div>
-                     <div class="inner-cus">
-                       <span><img src ="{{$setting->logo}}" style="width:200px"></span>
-                     </div>
+                  
+                       <marquee behavior="" direction=""><img src ="{{$setting->logo}}" style="width:200px"></marquee></span>
+                
                    </div>
                
                
                
              <style>
-               .box-cus {
-	display: flex;
-   transform: translateX(-220px);
-   width: 580px;
-}
-@media only screen and (max-width:768px){
-   .box-cus {
-	display: flex;
-    transform: translateX(-110px);
-}
-}
-
-.box-cus .inner-cus {
-	width: 400px;
-	height: 200px;
-	line-height: 200px;
-	font-size: 4em;
-	font-family: sans-serif;
-	font-weight: bold;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.box-cus .inner-cus:first-child {
-	background-color: #704423;
-	color: darkred;
-	transform-origin: right;
-	transform: perspective(100px) rotateY(-15deg);
-}
-
-.box-cus .inner-cus:last-child {
-	background-color: #b67848;
-	color: antiquewhite;
-	transform-origin: left;
-	transform: perspective(100px) rotateY(15deg);
-}
-
-.box-cus .inner-cus span {
-   padding: 30px 0;
-	position: absolute;
-	animation: marquee 6s linear infinite;
-}
-
-.box-cus .inner-cus:first-child span {
-	animation-delay: 3s;
-	left: -100%;
-}
-
-@keyframes marquee {
-	from {
-		left: 100%;
-	}
-
-	to {
-		left: -100%;
-	}
-}
+  .box-cus{
+   background: red;
+  }
              </style>
              <br>
              <br>
-               <p style="color: #d1d3d4; padding-bottom: 10px; align: justify;">{{$setting->webname}}</p>
+               <p style="color: #d1d3d4; padding-bottom: 10px; align: justify;text-align:center">{{$setting->webname}}</p>
                <style type="text/css" data-type="the7_shortcodes-inline-css">#orphaned-shortcode-3c5facf098baaba3f4a72b0826cb35f8.ico-right-side > i {
                   margin-right: 0px;
                   margin-left: 8px;
