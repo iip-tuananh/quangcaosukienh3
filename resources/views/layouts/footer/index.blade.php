@@ -9,11 +9,11 @@
                <div class="" style="align-items: center;
                display: flex;
                flex-direction: column;">
-                  <div class="box-cus">
+               
                   
-                       <marquee behavior="alternate" direction=""><img src ="{{$setting->logo}}" style="width:200px"></marquee></span>
+                       <marquee behavior="alternate" direction="">   <div class="box-cus"><img src ="{{$setting->logo}}" style="width:200px"></div></marquee></span>
                 
-                   </div>
+              
                
                
                
