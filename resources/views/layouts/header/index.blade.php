@@ -44,7 +44,7 @@
             </ul>
         </li>
         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4807 has-children" role="presentation">
-            <a href="{{route('allProduct')}}"  data-level='1' role="menuitem"><i class="fa fa-rocket"></i><span class="menu-item-text"><span class="menu-text">BIỂN QUẢNG CÁO</span></span></a>
+            <a href="{{route('allProduct')}}"  data-level='1' role="menuitem"><i class="fa fa-rocket"></i><span class="menu-item-text"><span class="menu-text">SẢN PHẨM QUẢNG CÁO</span></span></a>
             <ul class="sub-nav hover-style-bg level-arrows-on" role="menubar">
                 @foreach ($categoryhome as $cate)
                      <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7916 first" role="presentation"><a href='{{route('allListProCate',['danhmuc'=>$cate->slug])}}' data-level='2' role="menuitem"><span class="menu-item-text"><span class="menu-text">{{languageName($cate->name)}}</span></span></a></li>
